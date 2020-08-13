@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 cd docker/backend
 docker-compose up -d
