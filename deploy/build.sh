@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd docker/backend
+cd ../docker/backend
 docker-compose up -d
 
 cd ../frontend
