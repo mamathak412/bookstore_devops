@@ -1,0 +1,8 @@
+version: '3'
+services:
+   bookstore-backend:
+    image: bookstore_backend
+    container_name: bookstore_backend
+    ports:
+      - "9001:9001"
+

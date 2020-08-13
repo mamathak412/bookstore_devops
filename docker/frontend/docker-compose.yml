@@ -1,0 +1,9 @@
+version: '3'
+services:
+    bookstore-frontend:
+     image: bookstore_frontend
+     container_name: bookstore_frontend
+     ports:
+       - "4200:4200"
+
+
